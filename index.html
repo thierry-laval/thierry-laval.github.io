@@ -2,39 +2,59 @@
 <html lang="fr">
 
 <head>
-  <title>Projet de site perso</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.ico" />
+  <title>Page Moderne - Naturopathie & Bien-être</title>
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style/style.css">
-  <script src="scripts/script.js"></script>
-  <!-- ... -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <div class="center-div">
-    <p class="center">
-      <img alt="" src="https://www.alsacreations.com/xmedia/doc/original/body-tshirt.png"></p>
-
-    <!-- Le reste du contenu -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis sit eum nobis ipsum ullam molestiae qui
-      accusantium
-      facere id! Quis est dolor voluptate iusto corporis quasi officiis, aliquid delectus illo.</p>
-
-  </div>
-
-  <div class="container">
-    <div class="item">
-      <p>
-        02 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium numquam ratione officiis
-        accusantium
-        aliquid, cumque dolore autem possimus praesentium quo, blanditiis sequi nobis temporibus minus labore eveniet
-        recusandae atque?</p>
+  <!-- Header Hero -->
+  <header class="hero">
+    <div class="center-div">
+      <h1 class="title">Bien-être Naturel</h1>
+      <div class="image-container">
+        <img src="https://www.alsacreations.com/xmedia/doc/original/body-tshirt.png"
+          alt="Illustration corps et bien-être" class="hero-image">
+      </div>
+      <p class="hero-text">
+        Découvrez les bienfaits de la naturopathie et du coaching bien-être pour une vie équilibrée.
+      </p>
     </div>
-    <div>
+  </header>
 
+  <!-- Contenu principal -->
+  <main class="container">
+    <section class="cards">
+      <div class="card item">
+        <span class="card-number">01</span>
+        <h2>Naturopathie</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sit eum nobis ipsum ullam molestiae qui
+          accusantium facere id!</p>
+        <a href="#" class="btn">En savoir plus</a>
+      </div>
 
+      <div class="card item">
+        <span class="card-number">02</span>
+        <h2>Coaching Fitness</h2>
+        <p>Assumenda laudantium numquam ratione officiis accusantium aliquid, cumque dolore autem possimus praesentium
+          quo, blanditiis sequi nobis.</p>
+        <a href="#" class="btn">Découvrir</a>
+      </div>
+
+      <div class="card item">
+        <span class="card-number">03</span>
+        <h2>Reiki & Énergie</h2>
+        <p>Temporibus minus labore eveniet recusandae atque? Harmonisez votre énergie avec des pratiques ancestrales.
+        </p>
+        <a href="#" class="btn">Réserver</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
